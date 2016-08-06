@@ -26,7 +26,7 @@ xhr.onreadystatechange() = function () {
 };
 
 // opening a request
-xhr.open('GET', 'data/employees.json');
+xhr.open('GET', '../data/employees.json');
 
 // send the request
 xhr.send();
